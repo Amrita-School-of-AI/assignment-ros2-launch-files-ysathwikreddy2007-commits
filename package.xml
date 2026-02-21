@@ -4,6 +4,7 @@
   <name>ros2_launch_demo</name>
   <version>0.0.0</version>
   <description>Assignment: ROS2 Launch Files</description>
+
   <maintainer email="student@university.edu">Student Name</maintainer>
   <license>Apache-2.0</license>
 
@@ -12,7 +13,9 @@
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
 
-  <exec_depend>ros2launch</exec_depend>
+  <!-- Required for launch files -->
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
